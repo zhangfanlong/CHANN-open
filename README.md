@@ -15,14 +15,18 @@
    ...
    ```
 
-2. unzip the data.zip to data
+2. Dataset
+   1)Download our data from the goole drive: https://drive.google.com/file/d/1ytPrCtHksLY9hgEggJw18Eg3vreWJucv/view?usp=sharing
+                                 or dropbox: https://www.dropbox.com/s/8rutbixd9xi2q65/data.zip?dl=0
    
-3. If run with the whole dataset
+   2)unzip the data.zip to data folder.
+   
+3. Run with the whole dataset(our effectiveness experiment)
    ```shell
    python train.py attention=True/False
    ```
 
-4. If run with the specify projects
+4. Run with the specify projects(specific-project experiemnt)
    ```shell
    python trainCross.py
    ```
