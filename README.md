@@ -15,11 +15,13 @@
    ...
    ```
 
-2. Dataset
-
+2. Get DataSet
+  
    1)Download our data from dropbox: https://www.dropbox.com/s/8rutbixd9xi2q65/data.zip?dl=0
    
    2)unzip the data.zip to data folder.
+   
+   3)If you would like to build your own dataset, please refer to the folder named "Raw data".
    
 3. Run with the whole dataset(our effectiveness experiment)
    ```shell
@@ -30,3 +32,4 @@
    ```shell
    python trainCross.py
    ```
+   
